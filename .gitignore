@@ -1,0 +1,54 @@
+# Dependências
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Pastas nativas geradas (Continuous Native Generation)
+/ios
+/android
+
+# Nativo
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Metro
+.metro-health-check*
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente locais
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Arquivos locais de trabalho: nenhum Markdown na raiz sobe, exceto README e LICENSE
+/*.md
+!/README.md
+!/LICENSE.md
+
+# Referências locais de design
+/design-system/
+
+# Pastas e arquivos ocultos de ferramentas pessoais na raiz, exceto os do projeto
+/.*
+!/.gitignore
+!/.gitattributes
+!/.github/
